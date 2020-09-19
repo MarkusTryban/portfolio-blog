@@ -2,7 +2,7 @@ import React from 'react';
 
 import containerStyles from './container.module.css';
 
-const Container = ({ children }) => {
+const Container = ({ children }: { children: string }): JSX.Element => {
   return <div className={containerStyles.container}>{children}</div>;
 };
 
