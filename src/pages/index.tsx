@@ -6,7 +6,7 @@ import Header from '../components/header';
 
 const Home = (): JSX.Element => {
   return (
-    <div style={{ color: `purple` }}>
+    <div style={{ margin: '3rem auto', maxWidth: 600 }}>
       <Link to='/contact/'>Contact</Link>
       <br />
       <Link to='/about/'>About</Link>
