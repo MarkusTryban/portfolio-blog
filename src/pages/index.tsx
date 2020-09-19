@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Home = (): JSX.Element => {
   return (
     <div style={{ color: `purple` }}>
       <h1>Hello Gatsby!</h1>
