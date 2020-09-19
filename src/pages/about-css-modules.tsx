@@ -2,7 +2,11 @@ import React from 'react';
 
 import Container from '../components/container';
 
-const About = () => {
+import styles from './about-css-modules.module.css';
+
+console.log(styles);
+
+const About = (): JSX.Element => {
   return (
     <Container>
       <h1>About CSS Modules</h1>
