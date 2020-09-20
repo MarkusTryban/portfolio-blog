@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Portfolio = () => {
   return (
     <section className='content-section' id='portfolio'>
@@ -17,7 +19,11 @@ const Portfolio = () => {
                   </p>
                 </span>
               </span>
-              <img className='img-fluid' src={p1} alt='' />
+              <img
+                className='img-fluid'
+                src='../../images/portfolio-1.jpg'
+                alt=''
+              />
             </a>
           </div>
           <div className='col-lg-6'>
@@ -31,7 +37,11 @@ const Portfolio = () => {
                   </p>
                 </span>
               </span>
-              <img className='img-fluid' src={p2} alt='' />
+              <img
+                className='img-fluid'
+                src='../../images/portfolio-2.jpg'
+                alt=''
+              />
             </a>
           </div>
           <div className='col-lg-6'>
@@ -45,7 +55,11 @@ const Portfolio = () => {
                   </p>
                 </span>
               </span>
-              <img className='img-fluid' src={p3} alt='' />
+              <img
+                className='img-fluid'
+                src='../../images/portfolio-3.jpg'
+                alt=''
+              />
             </a>
           </div>
           <div className='col-lg-6'>
@@ -59,7 +73,11 @@ const Portfolio = () => {
                   </p>
                 </span>
               </span>
-              <img className='img-fluid' src={p4} alt='' />
+              <img
+                className='img-fluid'
+                src='../../images/portfolio-4.jpg'
+                alt=''
+              />
             </a>
           </div>
         </div>
