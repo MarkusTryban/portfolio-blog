@@ -17,9 +17,9 @@ html {
 }
 
 .masthead {
+  display: flex;
   min-height: 30rem;
   position: relative;
-  display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
