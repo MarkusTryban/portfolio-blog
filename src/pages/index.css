@@ -35,18 +35,12 @@ html {
   background-size: cover;
 }
 
-h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-}
-
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
 
-  h1 {
+  .masthead h1 {
     font-size: 5.5rem;
   }
 }
