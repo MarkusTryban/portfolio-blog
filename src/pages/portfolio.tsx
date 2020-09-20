@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolio = (): JSX.Element => {
   return (
     <>
-      <section className='content-section' id='portfolio'>
+      <section className='content-section'>
         <div className='container'>
           <div className='content-section-heading text-center'>
             <h3 className='text-secondary mb-0'>Portfolio</h3>
