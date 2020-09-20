@@ -14,3 +14,7 @@ section {
   margin-right: auto;
   margin-left: auto;
 }
+
+.content-section-heading {
+  text-align: center;
+}
