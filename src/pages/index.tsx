@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Header from '../components/header';
 
 import './index.css';
@@ -13,7 +14,7 @@ const Home = (): JSX.Element => {
           <h3>
             <em>Allways be the best you!</em>
           </h3>
-          <a className='btn btn-transition' href='#Portfolio'>
+          <a className='btn btn-transition' href='/portfolio/'>
             Portfolio
           </a>
         </div>
