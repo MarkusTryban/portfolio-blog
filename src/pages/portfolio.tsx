@@ -15,7 +15,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Stationary</h2>
-                    <p className='mb-0'>
+                    <p>
                       A yellow pencil with envelopes on a clean, blue backdrop!
                     </p>
                   </span>
