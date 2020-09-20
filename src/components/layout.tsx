@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Header from './header';
+
 const Layout = (): JSX.Element => {
   return (
-    <div
-      style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}
-    ></div>
+    <>
+      <Header />
+    </>
   );
 };
 
