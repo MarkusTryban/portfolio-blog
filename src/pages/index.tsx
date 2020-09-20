@@ -7,7 +7,7 @@ const Home = (): JSX.Element => {
   return (
     <>
       <Header />
-      <header className='masthead d-flex'>
+      <header className='masthead'>
         <div className='container text-center my-auto'>
           <h1 className='mb-1'>Firstname Lastname</h1>
           <h3 className='mb-5'>
