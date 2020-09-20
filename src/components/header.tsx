@@ -24,23 +24,20 @@ const Header = (): JSX.Element => {
       </a>
       <nav id='sidebar-wrapper' className={` ${openMenu ? 'active' : ''}`}>
         <ul className='sidebar-nav'>
-          <li className='sidebar-brand'>
-            <a href='#page-top'>Gatsby Starter</a>
+          <li className='sidebar'>
+            <a href='#page-top'>Markus Tryban</a>
           </li>
           <li className='sidebar-nav-item'>
             <a href='#page-top'>Home</a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#about'>About</a>
+            <a href='#about'>Portfolio</a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#services'>Services</a>
+            <a href='#services'>Github</a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#portfolio'>Portfolio</a>
-          </li>
-          <li className='sidebar-nav-item'>
-            <a href='#contact'>Contact</a>
+            <a href='#portfolio'>Linkedin</a>
           </li>
         </ul>
       </nav>
