@@ -7,7 +7,7 @@ const Portfolio = (): JSX.Element => {
         <div className='container'>
           <div className='content-section-heading'>
             <h3 className='text-secondary'>Portfolio</h3>
-            <h2 className='mb-5'>Recent Projects</h2>
+            <h2>Recent Projects</h2>
           </div>
           <div className='row no-gutters'>
             <div className='col-lg-6'>
