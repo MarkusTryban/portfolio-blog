@@ -5,7 +5,6 @@ import Header from '../components/header';
 const Portfolio = (): JSX.Element => {
   return (
     <>
-      <Header />
       <section className='content-section' id='portfolio'>
         <div className='container'>
           <div className='content-section-heading text-center'>
