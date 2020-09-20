@@ -48,3 +48,18 @@ section {
   margin-right: 0;
   margin-left: 0;
 }
+
+.col-lg {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

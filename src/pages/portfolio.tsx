@@ -10,7 +10,7 @@ const Portfolio = (): JSX.Element => {
             <h2>Recent Projects</h2>
           </div>
           <div className='row'>
-            <div className='col-lg-6'>
+            <div className='col-lg'>
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
@@ -27,7 +27,7 @@ const Portfolio = (): JSX.Element => {
                 />
               </a>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg'>
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
@@ -45,7 +45,7 @@ const Portfolio = (): JSX.Element => {
                 />
               </a>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg'>
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
@@ -63,7 +63,7 @@ const Portfolio = (): JSX.Element => {
                 />
               </a>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg'>
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
