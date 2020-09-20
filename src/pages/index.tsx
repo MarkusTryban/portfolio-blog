@@ -13,7 +13,7 @@ const Home = (): JSX.Element => {
           <h3 className='mb-5'>
             <em>Lorem ipsum</em>
           </h3>
-          <a className='btn btn-primary btn-xl' href='#about'>
+          <a className='btn btn-transition' href='#about'>
             About
           </a>
         </div>
