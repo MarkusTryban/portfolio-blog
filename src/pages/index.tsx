@@ -8,16 +8,15 @@ const Home = (): JSX.Element => {
     <>
       <Header />
       <header className='masthead'>
-        <div className='container text-center my-auto'>
-          <h1 className='mb-1'>Firstname Lastname</h1>
-          <h3 className='mb-5'>
+        <div className='container'>
+          <h1>Firstname Lastname</h1>
+          <h3>
             <em>Lorem ipsum</em>
           </h3>
           <a className='btn btn-transition' href='#about'>
             About
           </a>
         </div>
-        <div className='overlay'></div>
       </header>
     </>
   );
