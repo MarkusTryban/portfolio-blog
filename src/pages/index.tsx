@@ -9,9 +9,9 @@ const Home = (): JSX.Element => {
       <Header />
       <header className='masthead'>
         <div className='container'>
-          <h1>Firstname Lastname</h1>
+          <h1>Markus Tryban</h1>
           <h3>
-            <em>Lorem ipsum</em>
+            <em>Allways be the best you!</em>
           </h3>
           <a className='btn btn-transition' href='#about'>
             About
