@@ -5,11 +5,7 @@ import Header from '../components/header';
 import Layout from '../components/layout';
 
 const Home = (): JSX.Element => {
-  return (
-    <Layout>
-      <Header headerText='Hello Gatsby' />
-    </Layout>
-  );
+  return <Layout></Layout>;
 };
 
 export default Home;
