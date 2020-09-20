@@ -18,3 +18,12 @@ section {
 .content-section-heading {
   text-align: center;
 }
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.text-secondary {
+  color: #ecb807;
+}
