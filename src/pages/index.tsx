@@ -13,8 +13,8 @@ const Home = (): JSX.Element => {
           <h3>
             <em>Allways be the best you!</em>
           </h3>
-          <a className='btn btn-transition' href='#about'>
-            About
+          <a className='btn btn-transition' href='#Portfolio'>
+            Portfolio
           </a>
         </div>
       </header>
