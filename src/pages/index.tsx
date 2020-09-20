@@ -1,11 +1,26 @@
 import React from 'react';
-
-import Layout from '../components/layout';
+import Header from '../components/header';
 
 import './index.css';
 
 const Home = (): JSX.Element => {
-  return <Layout></Layout>;
+  return (
+    <>
+      <Header />
+      <header className='masthead d-flex'>
+        <div className='container text-center my-auto'>
+          <h1 className='mb-1'>Firstname Lastname</h1>
+          <h3 className='mb-5'>
+            <em>Lorem ipsum</em>
+          </h3>
+          <a className='btn btn-primary btn-xl' href='#about'>
+            About
+          </a>
+        </div>
+        <div className='overlay'></div>
+      </header>
+    </>
+  );
 };
 
 export default Home;
