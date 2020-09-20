@@ -57,7 +57,20 @@ section {
   padding-left: 0;
 }
 
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
 @media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+
   .col-lg {
     flex: 0 0 50%;
     max-width: 50%;
