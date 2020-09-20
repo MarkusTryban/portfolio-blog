@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Portfolio = (): JSX.Element => {
   return (
     <section className='content-section' id='portfolio'>
       <div className='container'>
