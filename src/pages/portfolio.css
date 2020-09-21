@@ -98,6 +98,16 @@ section {
   font-size: 1.2rem;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -121,5 +131,23 @@ section {
   .col-lg {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+
+  img:hover {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+
+  .caption:hover {
+    background-color: fade-out(#1d809f, 0.1);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
   }
 }
