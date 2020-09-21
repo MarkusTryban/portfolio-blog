@@ -65,7 +65,7 @@ section {
   margin: auto auto 1rem;
 }
 
-.portfolio-item a {
+a {
   color: #1d809f;
   text-decoration: none;
   background-color: transparent;
