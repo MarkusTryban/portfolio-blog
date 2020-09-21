@@ -35,7 +35,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Ice Cream</h2>
-                    <p className='mb-0'>
+                    <p>
                       A dark blue background with a colored pencil, a clip, and
                       a tiny ice cream cone!
                     </p>
@@ -49,7 +49,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Strawberries</h2>
-                    <p className='mb-0'>
+                    <p>
                       Strawberries are such a tasty snack, especially with a
                       little sugar on top!
                     </p>
@@ -63,7 +63,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Workspace</h2>
-                    <p className='mb-0'>
+                    <p>
                       A yellow workspace with some scissors, pencils, and other
                       objects.
                     </p>

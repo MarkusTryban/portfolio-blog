@@ -75,7 +75,7 @@ section {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: fade-out(#212529, 0.8);
+  background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -93,13 +93,6 @@ section {
 }
 
 .caption-content p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-top: 0;
-  margin-bottom: 0;
   font-weight: 300;
   font-size: 1.2rem;
 }
