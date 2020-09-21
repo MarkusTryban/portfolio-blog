@@ -109,6 +109,10 @@ img {
 }
 
 @media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
   .portfolio-item {
     max-width: none;
     margin: 0;
