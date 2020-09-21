@@ -108,6 +108,18 @@ img {
   height: auto;
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: 540;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -153,17 +165,5 @@ img {
     background-color: fade-out(#1d809f, 0.1);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540;
   }
 }
