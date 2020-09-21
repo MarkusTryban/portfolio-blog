@@ -65,6 +65,12 @@ section {
   margin: auto auto 1rem;
 }
 
+.portfolio-item a {
+  color: #1d809f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .caption {
   display: flex;
   height: 100%;
