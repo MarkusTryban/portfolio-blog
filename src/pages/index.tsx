@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../components/header';
 
-import './index.css';
+import './index.scss';
 
 const Home = (): JSX.Element => {
   return (
