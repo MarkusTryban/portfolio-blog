@@ -23,7 +23,7 @@ const Portfolio = (): JSX.Element => {
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
-                    <h2>Stationary</h2>
+                    <h2>Pomodoro Clock</h2>
                     <p>
                       A yellow pencil with envelopes on a clean, blue backdrop!
                     </p>
@@ -36,7 +36,7 @@ const Portfolio = (): JSX.Element => {
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
-                    <h2>Ice Cream</h2>
+                    <h2>Drum Machine</h2>
                     <p>
                       A dark blue background with a colored pencil, a clip, and
                       a tiny ice cream cone!
@@ -50,7 +50,7 @@ const Portfolio = (): JSX.Element => {
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
-                    <h2>Strawberries</h2>
+                    <h2>Random Quote Generator</h2>
                     <p>
                       Strawberries are such a tasty snack, especially with a
                       little sugar on top!
@@ -64,7 +64,7 @@ const Portfolio = (): JSX.Element => {
               <a className='portfolio-item' href='/#'>
                 <span className='caption'>
                   <span className='caption-content'>
-                    <h2>Workspace</h2>
+                    <h2>Portfolio</h2>
                     <p>
                       A yellow workspace with some scissors, pencils, and other
                       objects.
