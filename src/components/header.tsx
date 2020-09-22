@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import './header.css';
+import './header.scss';
 
 const Header = (): JSX.Element => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -24,9 +24,7 @@ const Header = (): JSX.Element => {
       </a>
       <nav id='sidebar-wrapper' className={` ${openMenu ? 'active' : ''}`}>
         <ul className='sidebar-nav'>
-          <li className='sidebar'>
-            <a href='#page-top'>Markus Tryban</a>
-          </li>
+          <li className='sidebar'>Markus Tryban</li>
           <li className='sidebar-nav-item'>
             <a href='#page-top'>Home</a>
           </li>
