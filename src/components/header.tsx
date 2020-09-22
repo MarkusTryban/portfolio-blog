@@ -30,16 +30,28 @@ const Header = (): JSX.Element => {
         <ul className='sidebar-nav'>
           <li className='sidebar'>Markus Tryban</li>
           <li className='sidebar-nav-item'>
-            <a href='#page-top'>Home</a>
+            <a href='#'>Home</a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#about'>Portfolio</a>
+            <a href='/portfolio/'>Portfolio</a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#services'>Github</a>
+            <a
+              href='https://github.com/MarkusTryban'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Github
+            </a>
           </li>
           <li className='sidebar-nav-item'>
-            <a href='#portfolio'>Linkedin</a>
+            <a
+              href='https://www.linkedin.com/in/markus-tryban'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Linkedin
+            </a>
           </li>
         </ul>
       </nav>
