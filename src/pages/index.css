@@ -115,6 +115,10 @@ h3 {
   .masthead h1 {
     font-size: 3.5rem;
   }
+
+  .masthead h3 {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 768px) {
