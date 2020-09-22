@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/header';
 
 import p1 from '../images/portfolio-1.jpg';
 import p2 from '../images/portfolio-2.jpg';
@@ -10,6 +11,7 @@ import './portfolio.scss';
 const Portfolio = (): JSX.Element => {
   return (
     <>
+      <Header />
       <section className='content-section'>
         <div className='content-container'>
           <div className='content-section-heading'>
