@@ -16,9 +16,9 @@ const Header = (): JSX.Element => {
   return (
     <>
       <a
-        onClick={() => toggleMenu(!openMenu)}
+        onClick={(_) => toggleMenu(!openMenu)}
         className={`menu-toggle rounded ${openMenu ? 'active' : ''}`}
-        href='/#'
+        href='#'
       >
         {openMenu ? (
           <FontAwesomeIcon icon={faTimes} className='fas fa-times' />
@@ -30,7 +30,7 @@ const Header = (): JSX.Element => {
         <ul className='sidebar-nav'>
           <li className='sidebar'>Markus Tryban</li>
           <li className='sidebar-nav-item'>
-            <a href='#'>Home</a>
+            <a href='/#'>Home</a>
           </li>
           <li className='sidebar-nav-item'>
             <a href='/portfolio/'>Portfolio</a>
