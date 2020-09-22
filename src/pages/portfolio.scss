@@ -4,6 +4,18 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
 }
 .content-section {
   padding-top: 7.5rem;
@@ -44,11 +56,15 @@ section {
   margin-left: 0;
 }
 .col-lg {
-  display: block;
   position: relative;
   width: 100%;
   padding-right: 0;
   padding-left: 0;
+
+  @media (min-width: 992px) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 .portfolio-item {
   display: block;
@@ -62,16 +78,7 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-.caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
+
 .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
@@ -125,9 +132,6 @@ img {
   @media (min-width: 992px) {
     max-width: none;
     margin: 0;
-    .content-container {
-      max-width: 960;
-    }
     .caption {
       -webkit-transition: -webkit-clip-path 0.25s ease-out,
         background-color 0.7s;
