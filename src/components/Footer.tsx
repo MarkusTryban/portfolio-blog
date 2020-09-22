@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './Footer.css';
+
 const Footer = (): JSX.Element => {
   return (
-    <footer className='footer text-center'>
+    <footer className='footer'>
       <div className='container'>
-        <p className='text-muted small mb-0'>Copyright &copy; Gatsby Starter</p>
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
       </div>
     </footer>
   );
