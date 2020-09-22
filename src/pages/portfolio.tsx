@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Footer from '../components/Footer';
+
 import Header from '../components/header';
 
 import p1 from '../images/portfolio-1.jpg';
@@ -77,6 +80,7 @@ const Portfolio = (): JSX.Element => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
