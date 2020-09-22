@@ -5,7 +5,7 @@ import p2 from '../images/portfolio-2.jpg';
 import p3 from '../images/portfolio-3.jpg';
 import p4 from '../images/portfolio-4.jpg';
 
-import './portfolio.css';
+import './portfolio.scss';
 
 const Portfolio = (): JSX.Element => {
   return (
