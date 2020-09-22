@@ -93,6 +93,16 @@ h3 {
   transition-delay: 0s, 0s, 0s, 0s;
 }
 
+@media (min-width: 768px) {
+  .masthead {
+    height: 100vh;
+  }
+
+  .masthead h1 {
+    font-size: 4.5rem;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
