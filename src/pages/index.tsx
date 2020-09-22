@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Footer from '../components/Footer';
+
 import Header from '../components/header';
 
 import './index.scss';
@@ -19,6 +21,7 @@ const Home = (): JSX.Element => {
           </a>
         </div>
       </header>
+      <Footer />
     </>
   );
 };
