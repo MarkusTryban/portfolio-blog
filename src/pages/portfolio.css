@@ -2,12 +2,17 @@ section {
   display: block;
 }
 
-.container {
+.content-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
 
 .content-section-heading {
@@ -103,19 +108,13 @@ img {
 }
 
 @media (min-width: 576px) {
-  .container {
+  .content-container {
     max-width: 540;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
 @media (min-width: 992px) {
-  .container {
+  .content-container {
     max-width: 960px;
   }
 
@@ -159,5 +158,11 @@ img {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .contnet-container {
+    max-width: 1140px;
   }
 }

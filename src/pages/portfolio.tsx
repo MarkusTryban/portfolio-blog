@@ -11,7 +11,7 @@ const Portfolio = (): JSX.Element => {
   return (
     <>
       <section className='content-section'>
-        <div className='container'>
+        <div className='content-container'>
           <div className='content-section-heading'>
             <h3 className='text-secondary'>Portfolio</h3>
             <h2>Recent Projects</h2>
