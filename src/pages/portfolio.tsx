@@ -4,10 +4,10 @@ import Footer from '../components/Footer';
 
 import Header from '../components/header';
 
-import p1 from '../images/portfolio-1.jpg';
-import p2 from '../images/portfolio-2.jpg';
-import p3 from '../images/portfolio-3.jpg';
-import p4 from '../images/portfolio-4.jpg';
+import p1 from '../images/image_part_001.jpg';
+import p2 from '../images/image_part_002.jpg';
+import p3 from '../images/image_part_003.jpg';
+import p4 from '../images/image_part_004.jpg';
 
 import './portfolio.scss';
 
@@ -33,8 +33,8 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Pomodoro Clock</h2>
                     <p>
-                      Built with React, html, css, and testing with jest and
-                      react-testing/library.
+                      Built with React, html, css, and testing with Jest and
+                      React testing library.
                     </p>
                   </span>
                 </span>
