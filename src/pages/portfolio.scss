@@ -14,13 +14,22 @@
   }
 
   @media (min-width: 1921px) {
-    max-width: 1140px;
+    max-width: 1250px;
   }
 }
 
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+
+  @media (min-width: 992px) {
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
 }
 
 section {
