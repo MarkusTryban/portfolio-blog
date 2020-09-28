@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 
-import './Header.scss';
+import './header.scss';
 
 const Header = (): JSX.Element => {
   const [openMenu, setOpenMenu] = useState(false);
