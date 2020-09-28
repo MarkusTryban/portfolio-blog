@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Helmet } from 'react-helmet';
+import Title from '../components/Title';
 
 import Footer from '../components/Footer';
 
@@ -12,9 +12,7 @@ const Home = (): JSX.Element => {
   return (
     <>
       <Header />
-      <Helmet>
-        <title>Passionate Software Engineer</title>
-      </Helmet>
+      <Title />
       <header className='masthead'>
         <div className='container'>
           <h1>Markus Tryban</h1>
