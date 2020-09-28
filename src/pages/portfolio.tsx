@@ -33,8 +33,8 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Pomodoro Clock</h2>
                     <p>
-                      Built with React, html, css, and testing with Jest and
-                      React testing library.
+                      Built with Typescript, React, html, css, and testing with
+                      Jest and React testing library.
                     </p>
                   </span>
                 </span>
@@ -52,7 +52,7 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Drum Machine</h2>
                     <p>
-                      Drum Machine built with typescript, React, html, and css.
+                      Drum Machine built with Typescript, React, html, and css.
                     </p>
                   </span>
                 </span>
@@ -70,7 +70,7 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Random Quote Generator</h2>
                     <p>
-                      Random quote machine built with typescript, React, html,
+                      Random quote machine built with Typescript, React, html,
                       and css.
                     </p>
                   </span>
@@ -89,7 +89,7 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Portfolio</h2>
                     <p>
-                      Developer portfolio built with typescript, React, Gatsby,
+                      Developer portfolio built with Typescript, React, Gatsby,
                       scss, and html.
                     </p>
                   </span>
