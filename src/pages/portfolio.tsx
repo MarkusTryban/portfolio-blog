@@ -33,8 +33,8 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Pomodoro Clock</h2>
                     <p>
-                      Built with Typescript, React, html, css, and testing with
-                      Jest and React testing library.
+                      Typescript, React, html, css, Jest, and React testing
+                      library.
                     </p>
                   </span>
                 </span>
@@ -51,9 +51,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Drum Machine</h2>
-                    <p>
-                      Drum Machine built with Typescript, React, html, and css.
-                    </p>
+                    <p>Built with Typescript, React, html, and css.</p>
                   </span>
                 </span>
                 <img className='img-fluid' src={p2} alt='' />
@@ -68,11 +66,8 @@ const Portfolio = (): JSX.Element => {
               >
                 <span className='caption'>
                   <span className='caption-content'>
-                    <h2>Random Quote Generator</h2>
-                    <p>
-                      Random quote machine built with Typescript, React, html,
-                      and css.
-                    </p>
+                    <h2>Random Quote</h2>
+                    <p>Built with Typescript, React, html, and css.</p>
                   </span>
                 </span>
                 <img className='img-fluid' src={p3} alt='' />
@@ -88,10 +83,7 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Portfolio</h2>
-                    <p>
-                      Developer portfolio built with Typescript, React, Gatsby,
-                      scss, and html.
-                    </p>
+                    <p>Built with Typescript, React, Gatsby, scss, and html.</p>
                   </span>
                 </span>
                 <img className='img-fluid' src={p4} alt='' />
