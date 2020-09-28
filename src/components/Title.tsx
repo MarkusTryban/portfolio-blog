@@ -1,5 +1,7 @@
 import React from 'react';
 
+import favicon from '../assets/favicon/favicon.ico';
+
 import { Helmet } from 'react-helmet';
 
 const Title = (): JSX.Element => {
@@ -7,6 +9,7 @@ const Title = (): JSX.Element => {
     <Helmet>
       <meta charSet='utf-8' />
       <title>Passionate Software Engineer</title>
+      <link rel='icon' href={favicon} />
       <link
         rel='apple-touch-icon'
         sizes='180x180'
