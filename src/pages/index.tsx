@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet';
+
 import Footer from '../components/Footer';
 
 import Header from '../components/header';
@@ -10,6 +12,9 @@ const Home = (): JSX.Element => {
   return (
     <>
       <Header />
+      <Helmet>
+        <title>Passionate Software Engineer</title>
+      </Helmet>
       <header className='masthead'>
         <div className='container'>
           <h1>Markus Tryban</h1>
