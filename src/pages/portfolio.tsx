@@ -6,10 +6,10 @@ import Footer from '../components/Footer';
 
 import Header from '../components/Header';
 
-import p1 from '../images/image_part_001.jpg';
-import p2 from '../images/image_part_002.jpg';
-import p3 from '../images/image_part_003.jpg';
-import p4 from '../images/image_part_004.jpg';
+import p1 from '../assets/images/image_part_001.jpg';
+import p2 from '../assets/images/image_part_002.jpg';
+import p3 from '../assets/images/image_part_003.jpg';
+import p4 from '../assets/images/image_part_004.jpg';
 
 import './portfolio.scss';
 
