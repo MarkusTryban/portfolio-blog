@@ -4,7 +4,7 @@ import Title from '../components/Title';
 
 import Footer from '../components/Footer';
 
-import Header from '../components/Header';
+import Header from '../components/header';
 
 import p1 from '../assets/images/image_part_001.jpg';
 import p2 from '../assets/images/image_part_002.jpg';
