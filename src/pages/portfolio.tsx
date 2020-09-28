@@ -63,7 +63,7 @@ const Portfolio = (): JSX.Element => {
             <div className='col-lg'>
               <a
                 className='portfolio-item'
-                href='https://5f6ab7e69cc57a533bcf6d6b--sharp-colden-e41c9e.netlify.app/'
+                href='https://sharp-colden-e41c9e.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
