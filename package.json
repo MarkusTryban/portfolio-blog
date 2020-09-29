@@ -32,6 +32,8 @@
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
     "@types/helmet": "^0.0.48",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.1",
