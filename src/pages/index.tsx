@@ -19,7 +19,11 @@ const Home = (): JSX.Element => {
           <h3>
             <em>Allways be the best you!</em>
           </h3>
-          <a className='btn btn-transition' href='/portfolio/'>
+          <a
+            className='btn btn-transition'
+            title='Portfolio btn'
+            href='/portfolio/'
+          >
             Portfolio
           </a>
         </div>
