@@ -12,3 +12,8 @@ test('should return github link', () => {
   render(<Header />);
   expect(screen.getByText(/Github/i));
 });
+
+test('should return linkedin link', () => {
+  render(<Header />);
+  expect(screen.getByText(/Linkedin/i));
+});
