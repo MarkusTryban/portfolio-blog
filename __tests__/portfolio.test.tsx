@@ -22,3 +22,8 @@ test('should return Random Quote link', () => {
   render(<Portfolio />);
   expect(screen.getByTitle('Random Quote'));
 });
+
+test('should return Portfolio link', () => {
+  render(<Portfolio />);
+  expect(screen.getByTitle('Portfolio'));
+});
