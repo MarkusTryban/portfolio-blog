@@ -17,3 +17,8 @@ test('should return Drum Machine link', () => {
   render(<Portfolio />);
   expect(screen.getByTitle('Drum Machine'));
 });
+
+test('should return Random Quote link', () => {
+  render(<Portfolio />);
+  expect(screen.getByTitle('Random Quote'));
+});
