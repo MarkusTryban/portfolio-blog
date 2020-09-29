@@ -86,7 +86,10 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Portfolio</h2>
-                    <p>Built with Typescript, React, Gatsby, scss, and html.</p>
+                    <p>
+                      Typescript, React, Gatsby, scss, html, Jest, and React
+                      testing library.
+                    </p>
                   </span>
                 </span>
                 <img className='img-fluid' src={p4} alt='' />
