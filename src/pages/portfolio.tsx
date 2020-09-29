@@ -6,11 +6,6 @@ import Footer from '../components/Footer';
 
 import Header from '../components/header';
 
-import p1 from '../assets/images/image_part_001.jpg';
-import p2 from '../assets/images/image_part_002.jpg';
-import p3 from '../assets/images/image_part_003.jpg';
-import p4 from '../assets/images/image_part_004.jpg';
-
 import './portfolio.scss';
 
 const Portfolio = (): JSX.Element => {
@@ -42,7 +37,11 @@ const Portfolio = (): JSX.Element => {
                     </p>
                   </span>
                 </span>
-                <img className='img-fluid' src={p1} alt='' />
+                <img
+                  className='img-fluid'
+                  src={'../assets/images/image_part_001.jpg'}
+                  alt=''
+                />
               </a>
             </div>
             <div className='col-lg'>
@@ -61,7 +60,11 @@ const Portfolio = (): JSX.Element => {
                     </p>
                   </span>
                 </span>
-                <img className='img-fluid' src={p2} alt='' />
+                <img
+                  className='img-fluid'
+                  src={'../assets/images/image_part_002.jpg'}
+                  alt=''
+                />
               </a>
             </div>
             <div className='col-lg'>
@@ -80,7 +83,11 @@ const Portfolio = (): JSX.Element => {
                     </p>
                   </span>
                 </span>
-                <img className='img-fluid' src={p3} alt='' />
+                <img
+                  className='img-fluid'
+                  src={'../assets/images/image_part_003.jpg'}
+                  alt=''
+                />
               </a>
             </div>
             <div className='col-lg'>
@@ -99,7 +106,11 @@ const Portfolio = (): JSX.Element => {
                     </p>
                   </span>
                 </span>
-                <img className='img-fluid' src={p4} alt='' />
+                <img
+                  className='img-fluid'
+                  src={'../assets/images/image_part_004.jpg'}
+                  alt=''
+                />
               </a>
             </div>
           </div>
