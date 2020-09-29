@@ -29,6 +29,7 @@ const Portfolio = (): JSX.Element => {
               <a
                 className='portfolio-item'
                 href='https://distracted-noyce-12dc43.netlify.app/'
+                title='Pomodoro Clock'
                 target='_blank'
                 rel='noopener noreferrer'
               >
