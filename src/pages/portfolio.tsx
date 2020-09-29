@@ -48,6 +48,7 @@ const Portfolio = (): JSX.Element => {
               <a
                 className='portfolio-item'
                 href='https://kind-lalande-7168be.netlify.app/'
+                title='Drum Machine'
                 target='_blank'
                 rel='noopener noreferrer'
               >
