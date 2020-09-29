@@ -12,3 +12,8 @@ test('should return Pomodoro Clock link', () => {
   render(<Portfolio />);
   expect(screen.getByTitle('Pomodoro Clock'));
 });
+
+test('should return Drum Machine link', () => {
+  render(<Portfolio />);
+  expect(screen.getByTitle('Drum Machine'));
+});
