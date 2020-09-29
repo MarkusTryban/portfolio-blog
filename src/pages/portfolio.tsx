@@ -72,6 +72,7 @@ const Portfolio = (): JSX.Element => {
               <a
                 className='portfolio-item'
                 href='https://sharp-colden-e41c9e.netlify.app/'
+                title='Random Quote'
                 target='_blank'
                 rel='noopener noreferrer'
               >
