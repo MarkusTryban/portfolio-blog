@@ -54,7 +54,10 @@ const Portfolio = (): JSX.Element => {
                 <span className='caption'>
                   <span className='caption-content'>
                     <h2>Drum Machine</h2>
-                    <p>Built with Typescript, React, html, and css.</p>
+                    <p>
+                      Typescript | React | html | css | Jest | React testing
+                      library.
+                    </p>
                   </span>
                 </span>
                 <img className='img-fluid' src={p2} alt='' />
