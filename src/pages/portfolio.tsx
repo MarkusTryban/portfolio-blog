@@ -36,7 +36,7 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Pomodoro Clock</h2>
                     <p>
-                      Typescript, React, html, css, Jest, and React testing
+                      Typescript | React | html | css | Jest | React testing
                       library.
                     </p>
                   </span>
