@@ -1,9 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  setupFilesAfterEnv: [
-    path.resolve(__dirname, './jest-configs/setup-test-env.js'),
-  ],
+  setupFilesAfterEnv: [path.resolve(__dirname, './setup-test-env.js')],
   transform: {
     // "^.+\\.(tsx?|jsx?)$": "ts-jest",
     '\\.svg': '<rootDir>/jest-configs/__mocks__/svgTransform.js',
