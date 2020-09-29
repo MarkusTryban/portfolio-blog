@@ -87,8 +87,8 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Portfolio</h2>
                     <p>
-                      Typescript, React, Gatsby, scss, html, Jest, and React
-                      testing library.
+                      Typescript | React | Gatsby | Jest | React testing library
+                      | scss | html.
                     </p>
                   </span>
                 </span>
