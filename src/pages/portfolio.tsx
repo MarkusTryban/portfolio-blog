@@ -96,6 +96,7 @@ const Portfolio = (): JSX.Element => {
               <a
                 className='portfolio-item'
                 href='https://github.com/MarkusTryban/portfolio-blog'
+                title='Portfolio'
                 target='_blank'
                 rel='noopener noreferrer'
               >
