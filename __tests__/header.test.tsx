@@ -8,6 +8,11 @@ test('should render without crashing', () => {
   render(<Header />);
 });
 
+test('should return home link', () => {
+  render(<Header />);
+  expect(screen.getByText(/Home/i));
+});
+
 test('should return github link', () => {
   render(<Header />);
   expect(screen.getByText(/Github/i));
