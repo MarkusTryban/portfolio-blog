@@ -58,8 +58,9 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Drum Machine</h2>
                     <p>
-                      Typescript | React | html | css | Jest | React testing
-                      library.
+                      Using React I was able to create a fun app that lets you
+                      be creative with a few simple sounds. Jest and React
+                      testing library for better and more reliable components.
                     </p>
                   </span>
                 </span>
