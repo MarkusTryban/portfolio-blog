@@ -37,8 +37,9 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Pomodoro Clock</h2>
                     <p>
-                      Typescript | React | html | css | Jest | React testing
-                      library.
+                      The Pomodoro Technique is a time management method for any
+                      task. Built with Typescript and testing with Jest and
+                      React Testing Library for a more robust application.
                     </p>
                   </span>
                 </span>
