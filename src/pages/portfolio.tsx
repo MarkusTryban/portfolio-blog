@@ -99,8 +99,10 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Portfolio</h2>
                     <p>
-                      Typescript | React | Gatsby | scss | html | Jest | React
-                      testing library .
+                      Gatsby was the best tool for creating my site because of
+                      the great platform and community. I used Typescript for a
+                      strict environment with fewer bugs and SCSS for creating
+                      separate CSS components.
                     </p>
                   </span>
                 </span>
