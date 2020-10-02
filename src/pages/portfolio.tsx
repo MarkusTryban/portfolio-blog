@@ -79,8 +79,9 @@ const Portfolio = (): JSX.Element => {
                   <span className='caption-content'>
                     <h2>Random Quote</h2>
                     <p>
-                      Typescript | React | html | css | Jest | React testing
-                      library.
+                      Getting funny and random quotes is cool in this React
+                      application. Using Typescript and robust testing makes the
+                      development workflow a lot better when refactoring code.
                     </p>
                   </span>
                 </span>
